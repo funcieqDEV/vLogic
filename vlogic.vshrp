@@ -30,7 +30,7 @@ set i = 0
 },
 
 func find_min(arr) {
-    if (array_length(arr) == 0) {
+    if (Array.array_length(arr) == 0) {
         return 0
     }
     
@@ -45,7 +45,7 @@ func find_min(arr) {
 
 
 func find_max(arr) {
-    if (array_length(arr) == 0) {
+    if (Array.array_length(arr) == 0) {
         return 0
     }
     
@@ -60,7 +60,7 @@ func find_max(arr) {
 
 
 func reverse_array(arr) {
-    set n = array_length(arr)
+    set n = Array.array_length(arr)
     
     if (n <= 0) {
         return arr  
