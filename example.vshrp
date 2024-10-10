@@ -1,0 +1,28 @@
+import "C:\Users\Jakub\Desktop\vlogic.vshrp"
+set arr = [2,3,6,5,6,7,8,4,5]
+
+io.print("orginalna tablica: [")
+
+for(item in arr){
+	io.print(item.ToString()+",")
+}
+io.println("]")
+io.println("min: "+find_min(arr).ToString())
+io.println("max: "+find_max(arr).ToString())
+
+io.print("odwrocona tablica: [")
+
+for(item in reverse_array(arr)){
+	io.print(item.ToString()+",")
+}
+io.println("]")
+
+io.print("posortowana tablica: [")
+
+set sorted = sort_array(arr,array_length(arr))
+
+for(item in sorted){
+	io.print(item.ToString()+",")
+}
+Console.WriteLine("tekst")
+io.print("]")
