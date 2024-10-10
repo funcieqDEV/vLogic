@@ -1,3 +1,5 @@
+set Array = [
+
 func sort_array(arr, n){
 	set i = 0
 	set j = 0
@@ -16,7 +18,7 @@ func sort_array(arr, n){
 		set i = i+1
 	}
 	return arr
-}
+},
 
 func array_length(arr){
 set i = 0
@@ -25,7 +27,7 @@ set i = 0
 		set i = i +1
 	}
 	return i
-}
+},
 
 func find_min(arr) {
     if (array_length(arr) == 0) {
@@ -39,7 +41,7 @@ func find_min(arr) {
         }
     }
     return min
-}
+},
 
 
 func find_max(arr) {
@@ -54,7 +56,7 @@ func find_max(arr) {
         }
     }
     return max
-}
+},
 
 
 func reverse_array(arr) {
@@ -79,5 +81,6 @@ func reverse_array(arr) {
     }
     return arr
 }
+]
 
 
