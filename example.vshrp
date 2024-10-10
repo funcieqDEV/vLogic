@@ -7,19 +7,19 @@ for(item in arr){
 	io.print(item.ToString()+",")
 }
 io.println("]")
-io.println("min: "+find_min(arr).ToString())
-io.println("max: "+find_max(arr).ToString())
+io.println("min: "+Array.find_min(arr).ToString())
+io.println("max: "+Array.find_max(arr).ToString())
 
 io.print("reversed array: [")
 
-for(item in reverse_array(arr)){
+for(item in Array.reverse_array(arr)){
 	io.print(item.ToString()+",")
 }
 io.println("]")
 
 io.print("sorted array: [")
 
-set sorted = sort_array(arr,array_length(arr))
+set sorted = Array.sort_array(arr,array_length(arr))
 
 for(item in sorted){
 	io.print(item.ToString()+",")
