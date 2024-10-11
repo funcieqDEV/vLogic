@@ -2,9 +2,9 @@ set Array = [
 
 func sort_array(arr, n){
 	set i = 0
-	set j = 0
+	
 	while(i<n){
-		
+		set j = 0
 		while(j< n -1){
 			if (arr[j] > arr[j + 1]) {
                 
